@@ -1,0 +1,64 @@
+{
+  "train": {
+    "sampling_rate": "40k",
+    "segment_size": 8192
+  },
+  "data": {
+    "filter_length": 1024,
+    "hop_length": 300,
+    "n_mel_channels": 80
+  },
+  "model": {
+    "type": "vits",
+    "block_nums": 9,
+    "resblock": "1",
+    "n_layers": 4,
+    "hidden_channels": 192,
+    "spk_embed_dim": 256,
+    "gin_channels": 256,
+    "inter_channels": 192,
+    "filter_channels": 256,
+    "n_heads": 2,
+    "kernel_size": 3,
+    "p_dropout": 0.1,
+    "resblock_kernel_sizes": [
+      3,
+      7,
+      11
+    ],
+    "resblock_dilation_sizes": [
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        1,
+        3,
+        5
+      ]
+    ],
+    "upsample_rates": [
+      8,
+      8,
+      2,
+      2
+    ],
+    "upsample_initial_channel": 512,
+    "upsample_kernel_sizes": [
+      16,
+      16,
+      4,
+      4
+    ],
+    "sr": "40k",
+    "is_half": false,
+    "use_spectral_norm": false,
+    "n_speakers": 109
+  }
+}

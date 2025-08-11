@@ -1,0 +1,10 @@
+{
+	"FOLDER_PATH": {
+		"enable": true,
+		"model_path": "model_path",
+		"title": "Yuki",
+		"cover": "",
+		"feature_retrieval_library": "added_IVF.index",
+		"author": "HoloFans"
+    }
+}

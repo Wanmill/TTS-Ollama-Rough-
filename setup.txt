@@ -1,0 +1,9 @@
+Copy Paste to CMD
+
+cd /d D:\VisualSC\MyChatbotRAG
+call venv\Scripts\activate
+
+
+Cek
+
+http://localhost:11434/
