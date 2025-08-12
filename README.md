@@ -1,3 +1,6 @@
+((Script ini bisa saja error karena perubahan perubahan yang dilakukan mau itu di app.py baru ataupun lama))
+
+
 Proyek adalah Chat AI dengan balasan text dan output suara dengan input dari mic. Proyek ini menggunakan Ollama, TTS, RVS di beberapa versi app.py, whisper, dll.
 Menggunakan Python versi 3.11.0 dan mungkin harus menyesuaikan untuk requirements-nya karena tidak di fix.
 
