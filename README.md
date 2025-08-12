@@ -2,7 +2,7 @@
 
 
 Proyek adalah Chat AI dengan balasan text dan output suara dengan input dari mic. Proyek ini menggunakan Ollama, TTS, RVS di beberapa versi app.py, whisper, dll.
-Menggunakan Python versi 3.11.0 dan mungkin harus menyesuaikan untuk requirements-nya karena tidak di fix.
+Menggunakan Python versi 3.10.6 dan mungkin harus menyesuaikan untuk requirements-nya karena tidak di fix.
 
 Model-model yang ada pada app(versi).py bisa diubah dan disesuaikan dengan keinginan.
 
