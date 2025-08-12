@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 langchain==0.2.0
 langchain-core==0.2.0
 langchain-community==0.2.0
@@ -16,4 +17,24 @@ silero-vad
 simpleaudio
 soundfile
 unstructured
+=======
+langchain==0.2.0
+langchain-core==0.2.0
+langchain-community==0.2.0
+langchain-huggingface==0.2.0
+langchain-text-splitters==0.2.0
+langchain-ollama==0.2.0
+huggingface-hub
+faiss-cpu
+pydub
+sounddevice
+numpy
+torch
+transformers
+openai-whisper
+silero-vad
+simpleaudio
+soundfile
+unstructured
+>>>>>>> 46f8efefacdbcef7e0ed266c41059ff89321cbc6
 coqui-tts

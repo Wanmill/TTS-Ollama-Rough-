@@ -1,0 +1,24 @@
+# Python cache & venv
+__pycache__/
+*.pyc
+.venv/
+
+# Data sementara
+TempPython/
+chat_history/
+vector_store/
+infer/*.wav
+infer/*.mp3
+infer/*.json
+
+# Media hasil proses
+*.wav
+*.mp3
+
+# Log
+*.log
+chatbot_log.txt
+
+# File konfigurasi sensitif
+config.json
+*.env
