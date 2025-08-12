@@ -16,3 +16,7 @@ INFO:       app(versi).py memiliki isi yang berbeda-beda dan tidak sama dan tida
             Beberapa script app.py menggunakan RVC namun ada juga ada juga yang tidak menggunakan.
             Untuk RVC sudah disiapkan pengecekan .index, .npy, dan .pth untuk kecocokan (harusnya work). Namun jika tetap error disarankan untuk menggunakan model RVC lain.
             Juga bisa mengisi file seperti source untuk referensi dari jawban AI nya.
+
+
+
+Model-Model .pth .npy .index masuk dalam LFS. Jadi untuk mendownload dan mengihindari error bisa untuk melakukan download manual sesuai pada script yang ada di dalam script
